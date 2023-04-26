@@ -1,4 +1,5 @@
 # node seed
+
 A Template Repository for a NodeJS Project.
 
 - Typescript
@@ -7,30 +8,37 @@ A Template Repository for a NodeJS Project.
 - ts-node
 - jest
 - eslint
+- 3 musketeers
 
 ## Script
 
 ```bash
 
+# install npm packages
+$ make install
+
 # Clean project removing node_modules and dist
-$ npm run clean
+$ make clean
 
 # Lint the src and tests
-$ npm run lint
+$ make lint
 
 # Script to run Jest tests
-$ npm run test
+$ make test
+
+# Script to run Jest tests with restart
+$ make test_watch
 
 # Build for production
-$ npm run build
+$ make build
 
 # Run production build
-$ npm run start
+$ make start
 
-# Run development 
-$ npm run dev:start
+# Run development
+$ make dev_start
 
 # Run in development with restart
-$ npm run dev:watch:start
+$ make dev_watch_start
 
 ```
