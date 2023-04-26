@@ -6,10 +6,17 @@ A Template Repository for a NodeJS Project.
 - nodemon
 - ts-node
 - jest
+- eslint
 
 ## Script
 
 ```bash
+
+# Clean project removing node_modules and dist
+$ npm run clean
+
+# Lint the src and tests
+$ npm run lint
 
 # Script to run Jest tests
 $ npm run test
