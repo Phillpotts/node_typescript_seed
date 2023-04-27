@@ -21,7 +21,8 @@
         "typeScript",
         "jest",
         "nodemon",
-        "ts-node"
+        "ts-node",
+        "prettier"
     ],
     "dependencies": {
         "@types/node": "^18.16.1",
