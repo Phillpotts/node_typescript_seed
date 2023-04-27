@@ -5,6 +5,7 @@
     "author": "william.phillpotts@googlemail.com",
     "main": "./dist/index.js",
     "scripts": {
+        "version:node": "node --version",
         "clean": "rm -rf ./dist ./node_modules",
         "lint": "npx eslint ./src ./test",
         "test": "jest",

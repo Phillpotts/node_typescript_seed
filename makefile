@@ -1,5 +1,8 @@
 # file: Makefile
 
+version_node:
+	docker compose run --rm node npm run version:node
+
 install:
 	docker compose run --rm node npm install
 

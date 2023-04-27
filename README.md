@@ -14,6 +14,9 @@ A Template Repository for a NodeJS Project.
 
 ```bash
 
+# Get the current nodeJs version
+$ make version_node
+
 # install npm packages
 $ make install
 
