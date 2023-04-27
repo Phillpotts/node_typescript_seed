@@ -24,10 +24,10 @@ $ make clean
 $ make lint
 
 # Script to run Jest tests
-$ make test
+$ make run_tests
 
 # Script to run Jest tests with restart
-$ make test_watch
+$ make run_tests_watch
 
 # Build for production
 $ make build

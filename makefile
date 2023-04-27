@@ -9,10 +9,10 @@ clean:
 lint:
 	docker compose run --rm node npm run lint
 
-test:
+run_tests:
 	docker compose run --rm node npm run test
 
-test_watch:
+run_tests_watch:
 	docker compose run --rm node npm run test:watch
 
 build:
