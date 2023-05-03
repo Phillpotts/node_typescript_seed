@@ -1,4 +1,4 @@
-# node seed
+# node typescript seed
 
 A Template Repository for a NodeJS Project.
 
